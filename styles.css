@@ -1,0 +1,151 @@
+
+        body {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            background: #444;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+        }
+
+        nav li {
+            flex: 1;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            display: block;
+            text-align: center;
+            padding: 15px;
+            font-weight: 700;
+            transition: background 0.3s;
+        }
+
+        nav li.active a {
+            background: #e67e22;
+        }
+
+        nav a:hover {
+            background: #555;
+        }
+
+        main {
+            padding: 40px;
+            max-width: 960px;
+            margin: auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        main h1 {
+            color: #e67e22;
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        fieldset {
+            border: 2px solid #e67e22;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            background: #f9f9f9;
+        }
+
+        fieldset legend {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #e67e22;
+        }
+
+        label {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+
+        label span {
+            flex: 1;
+        }
+
+        input[type="number"] {
+            flex: 2;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        button {
+            background: #e67e22;
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #d35400;
+        }
+
+        #feedback {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f4f4f4;
+            border-left: 5px solid #e67e22;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
